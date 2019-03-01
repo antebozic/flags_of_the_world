@@ -17,10 +17,23 @@
     /* text-shadow:.5px .5px #000; */
   }
   
-  .flag-answer button {
-    /* margin-left: 25px; */
-    
-  }
+  .showConn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    touch-action: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #FF715B;
+    font-size: 3.5rem;
+    padding: 0 4rem;
+}
+  
 
 
   @keyframes intoLight {

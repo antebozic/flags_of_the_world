@@ -3,6 +3,7 @@ import OnLoad from './OnLoad';
 import FlagQuestion, {QuestionStates} from './FlagQuestion.js';
 import shuffle from 'shuffle-array';
 import './CountryGame.css';
+import { Offline, Online } from "react-detect-offline";
 
 class CountryGame extends Component {
     constructor(props) {
@@ -155,6 +156,11 @@ class CountryGame extends Component {
         return (
             <div>
             {output}
+            <Offline>
+                <div className="showConn">
+                    <h2>There is a problem with your internet connection!</h2>
+                </div>
+            </Offline>
             </div>
         );
     }
