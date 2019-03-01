@@ -54,7 +54,7 @@
 
   .btn-flag {
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -91,3 +91,9 @@
   input:checked ~ .radio-button::after {
     opacity: 1;
   }
+
+  @media only screen and (max-width: 650px) {
+    .btn-flag {
+    bottom: 1.5rem;
+    }
+}
