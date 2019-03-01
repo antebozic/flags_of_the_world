@@ -1,0 +1,53 @@
+.btn-flag {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.3rem 3.8rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer; 
+    background-color: #FF715B;
+    color: #000;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: 1.2px;
+    font-size: 1.5rem;
+    /* text-shadow: 1px 1px #3A506B; */
+}
+
+/* .btn-flag:link, 
+.btn-flag:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer; 
+    background-color: #fff;
+    color: #fff;
+} */
+
+.btn-flag:hover {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+
+.btn-flag:active,
+.btn-flag:focus {
+    outline: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+@media only screen and (max-width: 350px) {
+    .btn-flag {
+    width: 70VW;
+    padding: .5rem 1.5rem;
+    }
+}
