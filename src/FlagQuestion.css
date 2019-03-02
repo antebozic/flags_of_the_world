@@ -8,6 +8,7 @@
   }
 
 .flag-div {
+  max-height: 95%;
   width: 100%;
   animation: intoLight .3s forwards ease-in;
   grid-column: 2 / 7;
