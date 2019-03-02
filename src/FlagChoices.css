@@ -105,3 +105,10 @@
       width: 65vw;
     }
 }
+
+@media only screen and (max-height: 600px) {
+  .btn-flag {
+    bottom: 1rem;
+    font-size: 1.6rem;
+    }
+}

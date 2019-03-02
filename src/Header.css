@@ -27,3 +27,11 @@
         padding-top: .3rem;
     }
 }
+
+@media only screen and (max-height: 600px) {
+    .header p {
+        font-size: 2rem;
+        /* padding-left: 1rem; */
+        padding-top: .3rem;
+    }
+}

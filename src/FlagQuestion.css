@@ -228,3 +228,20 @@
   top: 0;
   transform: rotate(-135deg);
 }
+
+@media only screen and (max-height: 550px) {
+  .flag-div {
+    width: 100%;
+    
+    grid-column: 2 / 7;
+    grid-row: 2 / 3;
+    
+    /* transform: translateY(-.5rem); */
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .flag-div {
+    transform: translateY(-1.5rem);
+  }
+}
