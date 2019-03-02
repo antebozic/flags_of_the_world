@@ -112,7 +112,7 @@
 @media only screen and (max-height: 600px) {
   .btn-flag {
     bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.23rem;
     padding: .7rem 1.5rem;
     }
     .label0, .label1, .label2, .label3 {
@@ -121,6 +121,6 @@
       width: 40vw;
     }
     .flag-form {
-      font-size: 1.2rem;
+      font-size: 1.23rem;
     }
 }
