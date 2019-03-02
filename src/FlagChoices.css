@@ -115,6 +115,6 @@
     .label0, .label1, .label2, .label3 {
       transform: translateY(-1rem, -2rem);
       
-      width: 65vw;
+      width: 40vw;
     }
 }
