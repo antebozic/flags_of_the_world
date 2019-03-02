@@ -91,6 +91,14 @@
 }
 
 .navigation__button {
+  background-color: transparent;
+  height: 7rem;
+  width: 7rem;
+  position:fixed;
+  top: 2rem;
+  right: 3rem;
+  border-radius: 50%;
+  z-index: 2000;
   cursor: pointer;
 }
 
