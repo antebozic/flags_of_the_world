@@ -30,7 +30,7 @@ const FlagAnswer = (props) => {
         <WrongData answer={answer} />)}
        
        
-        <StyledButton text="NEXT" onClick={onNext}/>
+        <StyledButton text="NEXT" delay={true} onClick={onNext}/>
         
     </div>
         )

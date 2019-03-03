@@ -22,7 +22,7 @@ console.log(props.options);
   return (
     <form className="flag-form" onSubmit={handleSubmit}>
       {inputs}
-      <StyledButton text="GUESS FLAG" type="submit"/>
+      <StyledButton text="GUESS FLAG" delay={false} type="submit"/>
     </form>
   );
 }
