@@ -4,24 +4,18 @@ import FlagAnswer from './FlagAnswer';
 import Header from './Header';
 import './FlagQuestion.css';
 import {
-  FacebookIcon,
-  TwitterIcon,
-  TelegramIcon,
-  WhatsappIcon,
-  GooglePlusIcon,
-  LinkedinIcon,
-  PinterestIcon,
-  VKIcon,
-  OKIcon,
-  RedditIcon,
-  TumblrIcon,
-  LivejournalIcon,
-  MailruIcon,
-  ViberIcon,
-  WorkplaceIcon,
-  LineIcon,
-  EmailIcon,
+  FacebookShareButton,
+  WhatsappShareButton,
+  ViberShareButton,
+  TwitterShareButton
 } from 'react-share';
+import {
+  FacebookIcon,
+  WhatsappIcon,
+  ViberIcon,
+  TwitterIcon
+} from 'react-share';
+
 const QuestionStates = {
   QUESTION: 1,
   ANSWER_WRONG: 2,
@@ -29,6 +23,8 @@ const QuestionStates = {
 };
 
 const Nav = () => {
+  let title = "Flags of the World";
+  let url = "https://antebozic.github.io/country-flag/";
   return(
     <div className="navigation">
     <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
@@ -41,8 +37,23 @@ const Nav = () => {
 
       <nav className="navigation__nav">
         <ul className="navigation__list">
-        Rules are simple, try to guess the flag and you'll get to know more about the country.<br></br>If you like the game, feel free to share.<br></br><FacebookIcon /><TwitterIcon /><WhatsappIcon /><br></br>
-Enjoy!
+        Rules are simple, try to guess the flag and you'll get to know more about the country.<br></br>If you like the game, feel free to share.
+        
+        Enjoy!
+        <div className="socialMediaWrap">
+        <FacebookShareButton url={url}>
+           <FacebookIcon size={75} round={true}/>
+        </FacebookShareButton>
+        <WhatsappShareButton url={url}>
+           <WhatsappIcon size={75} round={true}/>
+        </WhatsappShareButton>
+        <ViberShareButton url={url}>
+           <ViberIcon size={75} round={true}/>
+        </ViberShareButton>
+        <TwitterShareButton url={url}>
+           <TwitterIcon size={75} round={true}/>
+        </TwitterShareButton>
+        </div>
         </ul>
     </nav>
     </div>
