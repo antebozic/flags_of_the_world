@@ -38,11 +38,10 @@ const Nav = () => {
       <nav className="navigation__nav">
         <ul className="navigation__list">
         Rules are simple, try to guess the flag and you'll get to know more about the country.<br></br>If you like the game, feel free to share.
-        
         Enjoy!
         <div className="socialMediaWrap">
         <FacebookShareButton url={url}>
-           <FacebookIcon size={75} round={true}/>
+           <FacebookIcon size={75} round={true} />
         </FacebookShareButton>
         <WhatsappShareButton url={url}>
            <WhatsappIcon size={75} round={true}/>

@@ -7,9 +7,9 @@
 }
 
 html {
+  background-color: rgba(30,145,214,1);
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: #FF715B;
 }
 body {
   background-image: radial-gradient( rgba(30,145,214,1),rgba(88,173,221,1));
