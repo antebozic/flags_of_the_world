@@ -264,3 +264,12 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.pointer {
+  transition: all .2s ease-in-out;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  transform: scale(1.07);
+}

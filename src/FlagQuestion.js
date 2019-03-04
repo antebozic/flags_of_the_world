@@ -40,18 +40,26 @@ const Nav = () => {
         Rules are simple, try to guess the flag and you'll get to know more about the country.<br></br>If you like the game, feel free to share.
         Enjoy!
         <div className="socialMediaWrap">
+        <div className="pointer">
         <FacebookShareButton url={url}>
            <FacebookIcon size={75} round={true} />
         </FacebookShareButton>
+        </div>
+        <div className="pointer">
         <WhatsappShareButton url={url}>
            <WhatsappIcon size={75} round={true}/>
         </WhatsappShareButton>
+        </div>
+        <div className="pointer">
         <ViberShareButton url={url}>
            <ViberIcon size={75} round={true}/>
         </ViberShareButton>
+        </div>
+        <div className="pointer">
         <TwitterShareButton url={url}>
            <TwitterIcon size={75} round={true}/>
         </TwitterShareButton>
+        </div>
         </div>
         </ul>
     </nav>
