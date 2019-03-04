@@ -57,7 +57,7 @@
 
 .showUp {
     opacity: 0;
-    animation: appear .3s 1s forwards ease-in;
+    animation: appear .3s 1.2s forwards ease-in;
 }
 
 @keyframes appear {
