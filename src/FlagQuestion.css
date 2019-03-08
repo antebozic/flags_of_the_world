@@ -128,7 +128,7 @@
   opacity: 0;
   width: 0;
   /* transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
-  transition: all .5s ease-in-out, opacity .2s ease-out;
+  transition: all .5s ease-in-out, opacity .38s ease-out;
 }
 
 .navigation__list {
