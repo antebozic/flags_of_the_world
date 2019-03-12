@@ -65,7 +65,7 @@
   .radio-button {
     height: 3rem;
     width: 3rem;
-    border: 3.5px solid #344055;
+    border: 3.5px solid #98CE00;
     /* border: 5px solid #F9CB40; */
     border-radius: 50%;
     display: inline-block;
@@ -84,7 +84,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #344055;
+    background-color: #98CE00;
     /* background-color: #FF715B; */
     opacity: 0;
     transition: opacity .2s;
