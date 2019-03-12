@@ -7,18 +7,21 @@
 }
 
 html {
-  background-color: #e2d1c3;
+  background-color: rgba(88,173,221,1);
   box-sizing: border-box;
   font-size: 62.5%;
 }
 body {
   /* background-image: radial-gradient( rgba(30,145,214,1),rgba(88,173,221,1)); */
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
-  font-family: 'Lora', serif;
+  /* background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: 'Lora', serif; */
+
+  background-image: radial-gradient( rgba(30,145,214,1),rgba(88,173,221,1));
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* color: white; */
-  text-shadow: #fff;
+  /* text-shadow: .2px .2px #373E40;
+  color: #373E40; */
 }
 
 code {
