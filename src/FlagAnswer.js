@@ -10,7 +10,7 @@ const FlagAnswer = (props) => {
     const { correct, answer, onNext, capital, region, subregion, population, flag , nativeName} = props;
     let bck = { backgroundImage: `` };
     if(correct) {
-        bck = { backgroundImage: `radial-gradient( rgba(30,145,214,.88),rgba(88,173,221,.95)), url(${flag})` }
+        bck = { backgroundImage: `radial-gradient( rgba(253,252,251,.88),rgba(226,209,195,.95)), url(${flag})` }
     }
 
     return (

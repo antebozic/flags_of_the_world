@@ -10,12 +10,14 @@
     font-size: 1.5rem;
     border: none;
     cursor: pointer; 
-    background-color: #FF715B;
+  
+    /* background-image: radial-gradient( #fdfcfb 0%, #e2d1c3 100%); */
+    background-color: transparent;
     color: #000;
     font-weight: 500;
     font-family: inherit;
     letter-spacing: 1.2px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     
 
     /* text-shadow: 1px 1px #3A506B; */
