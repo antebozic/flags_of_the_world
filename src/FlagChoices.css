@@ -27,28 +27,28 @@
 }
 
   .label0 {
-    padding-left: 3.5rem;
+    padding-left: 4.3rem;
     position: relative;
     cursor: pointer;
     grid-column: 3 / 6;
     grid-row: 2 / 3;
   }
   .label1 {
-    padding-left: 3.5rem;
+    padding-left: 4.3rem;
     position: relative;
     cursor: pointer;
     grid-column: 3 / 6;
     grid-row: 3 / 4;
   }
   .label2 {
-    padding-left: 3.5rem;
+    padding-left: 4.3rem;
     position: relative;
     cursor: pointer;
     grid-column: 3 / 6;
     grid-row: 4 / 5;
   }
   .label3 {
-    padding-left: 3.5rem;
+    padding-left: 4.3rem;
     position: relative;
     cursor: pointer;
     grid-column: 3 / 6;
@@ -71,7 +71,7 @@
     display: inline-block;
     position: absolute;
     left: 0;
-    top: -.3rem;
+    top: -.7rem;
   }
 
   .radio-button::after {
