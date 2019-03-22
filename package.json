@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "nodemon": "^1.18.9",
-    "npm": "^6.8.0",
+    "npm": "^6.9.0",
     "react": "^16.7.0",
     "react-detect-offline": "^2.1.2",
     "react-dom": "^16.7.0",

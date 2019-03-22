@@ -139,13 +139,17 @@ class FlagQuestion extends Component {
     
     let flagPic = (<div></div>);
     if(questionState === QuestionStates.QUESTION ) {
+      var style = {
+        backgroundImage: `url(${flag})`, 
+        backgroundSize: "100% 100%"
+      }
       flagPic = (
-        <div className="flag-div">
-          <img
+        <div className="flag-div" style={style}>
+          {/* <img
           className="flag-img"
           src={flag}
           alt="Guess the flag"
-        />
+        /> */}
         </div>
         
        )
