@@ -21,11 +21,10 @@
       grid-row-gap: 1.7rem;
       min-width: 70vw;
     }
-    .radio-button {
+    /* .radio-button {
       top: -.38rem;
-    }
+    } */
 }
-
   .label0 {
     padding-left: 4.3rem;
     position: relative;
@@ -54,7 +53,6 @@
     grid-column: 3 / 6;
     grid-row: 5 / 6;
   }
-
   .btn-flag {
     position: absolute;
     bottom: 4rem;
